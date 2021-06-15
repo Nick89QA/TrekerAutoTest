@@ -1,0 +1,374 @@
+[1622620963.860][INFO]: Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 29428
+[1622620963.860][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1622620964.575][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\user\\IdeaProjects\\TrekerAutoTest\\build\\downloads\\1622620962685_7736_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\user\\IdeaProjects\\TrekerAutoTest\\build\\downloads\\1622620962685_7736_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1622620964.578][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\user\\IdeaProjects\\TrekerAutoTest\\build\\downloads\\1622620962685_7736_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1622620964.578][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1622620964.580][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\user\AppData\Local\Temp\scoped_dir5616_1027343075" data:,
+[1622620965.234][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1622620965.245][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1622620965.251][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "91.0.4472.77",
+      "chrome": {
+         "chromedriverVersion": "91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288})",
+         "userDataDir": "C:\\Users\\user\\AppData\\Local\\Temp\\scoped_dir5616_1027343075"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:60151"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "3da980ad4c2733535e4523f8a58d3d0b"
+}
+[1622620965.309][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1622620965.309][INFO]: Waiting for pending navigations...
+[1622620965.358][INFO]: Done waiting for pending navigations. Status: ok
+[1622620965.507][INFO]: Waiting for pending navigations...
+[1622620965.508][INFO]: Done waiting for pending navigations. Status: ok
+[1622620965.508][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1622620965.514][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1622620965.514][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] RESPONSE SetTimeouts
+[1622620965.524][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] COMMAND Navigate {
+   "url": "https://hub.crtweb.ru/tracker"
+}
+[1622620965.524][INFO]: Waiting for pending navigations...
+[1622620965.527][INFO]: Done waiting for pending navigations. Status: ok
+[1622620965.706][INFO]: Waiting for pending navigations...
+[1622620966.992][INFO]: Done waiting for pending navigations. Status: ok
+[1622620966.992][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] RESPONSE Navigate
+[1622620967.056][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Авторизация']"
+}
+[1622620967.056][INFO]: Waiting for pending navigations...
+[1622620967.056][INFO]: Done waiting for pending navigations. Status: ok
+[1622620967.067][INFO]: Waiting for pending navigations...
+[1622620967.068][INFO]: Done waiting for pending navigations. Status: ok
+[1622620967.068][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Авторизация']"}
+  (Session info: chrome=91.0.4472.77)
+[1622620967.295][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Авторизация']"
+}
+[1622620967.295][INFO]: Waiting for pending navigations...
+[1622620967.296][INFO]: Done waiting for pending navigations. Status: ok
+[1622620967.300][INFO]: Waiting for pending navigations...
+[1622620967.300][INFO]: Done waiting for pending navigations. Status: ok
+[1622620967.300][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Авторизация']"}
+  (Session info: chrome=91.0.4472.77)
+[1622620967.515][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Авторизация']"
+}
+[1622620967.516][INFO]: Waiting for pending navigations...
+[1622620967.516][INFO]: Done waiting for pending navigations. Status: ok
+[1622620967.521][INFO]: Waiting for pending navigations...
+[1622620967.521][INFO]: Done waiting for pending navigations. Status: ok
+[1622620967.521][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Авторизация']"}
+  (Session info: chrome=91.0.4472.77)
+[1622620967.736][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Авторизация']"
+}
+[1622620967.736][INFO]: Waiting for pending navigations...
+[1622620967.736][INFO]: Done waiting for pending navigations. Status: ok
+[1622620967.740][INFO]: Waiting for pending navigations...
+[1622620967.740][INFO]: Done waiting for pending navigations. Status: ok
+[1622620967.740][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Авторизация']"}
+  (Session info: chrome=91.0.4472.77)
+[1622620967.961][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Авторизация']"
+}
+[1622620967.961][INFO]: Waiting for pending navigations...
+[1622620967.962][INFO]: Done waiting for pending navigations. Status: ok
+[1622620967.965][INFO]: Waiting for pending navigations...
+[1622620967.966][INFO]: Done waiting for pending navigations. Status: ok
+[1622620967.966][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Авторизация']"}
+  (Session info: chrome=91.0.4472.77)
+[1622620968.179][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Авторизация']"
+}
+[1622620968.179][INFO]: Waiting for pending navigations...
+[1622620968.180][INFO]: Done waiting for pending navigations. Status: ok
+[1622620968.184][INFO]: Waiting for pending navigations...
+[1622620968.184][INFO]: Done waiting for pending navigations. Status: ok
+[1622620968.184][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Авторизация']"}
+  (Session info: chrome=91.0.4472.77)
+[1622620968.402][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Авторизация']"
+}
+[1622620968.402][INFO]: Waiting for pending navigations...
+[1622620968.402][INFO]: Done waiting for pending navigations. Status: ok
+[1622620968.406][INFO]: Waiting for pending navigations...
+[1622620968.407][INFO]: Done waiting for pending navigations. Status: ok
+[1622620968.407][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Авторизация']"}
+  (Session info: chrome=91.0.4472.77)
+[1622620968.624][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Авторизация']"
+}
+[1622620968.624][INFO]: Waiting for pending navigations...
+[1622620968.624][INFO]: Done waiting for pending navigations. Status: ok
+[1622620968.629][INFO]: Waiting for pending navigations...
+[1622620968.629][INFO]: Done waiting for pending navigations. Status: ok
+[1622620968.629][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Авторизация']"}
+  (Session info: chrome=91.0.4472.77)
+[1622620968.847][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Авторизация']"
+}
+[1622620968.847][INFO]: Waiting for pending navigations...
+[1622620968.847][INFO]: Done waiting for pending navigations. Status: ok
+[1622620968.851][INFO]: Waiting for pending navigations...
+[1622620968.851][INFO]: Done waiting for pending navigations. Status: ok
+[1622620968.852][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Авторизация']"}
+  (Session info: chrome=91.0.4472.77)
+[1622620969.070][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Авторизация']"
+}
+[1622620969.070][INFO]: Waiting for pending navigations...
+[1622620969.071][INFO]: Done waiting for pending navigations. Status: ok
+[1622620969.075][INFO]: Waiting for pending navigations...
+[1622620969.075][INFO]: Done waiting for pending navigations. Status: ok
+[1622620969.075][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Авторизация']"}
+  (Session info: chrome=91.0.4472.77)
+[1622620969.291][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Авторизация']"
+}
+[1622620969.291][INFO]: Waiting for pending navigations...
+[1622620969.291][INFO]: Done waiting for pending navigations. Status: ok
+[1622620969.295][INFO]: Waiting for pending navigations...
+[1622620969.295][INFO]: Done waiting for pending navigations. Status: ok
+[1622620969.296][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Авторизация']"}
+  (Session info: chrome=91.0.4472.77)
+[1622620969.510][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Авторизация']"
+}
+[1622620969.510][INFO]: Waiting for pending navigations...
+[1622620969.510][INFO]: Done waiting for pending navigations. Status: ok
+[1622620969.515][INFO]: Waiting for pending navigations...
+[1622620969.515][INFO]: Done waiting for pending navigations. Status: ok
+[1622620969.515][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Авторизация']"}
+  (Session info: chrome=91.0.4472.77)
+[1622620969.727][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Авторизация']"
+}
+[1622620969.727][INFO]: Waiting for pending navigations...
+[1622620969.728][INFO]: Done waiting for pending navigations. Status: ok
+[1622620969.731][INFO]: Waiting for pending navigations...
+[1622620969.732][INFO]: Done waiting for pending navigations. Status: ok
+[1622620969.732][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Авторизация']"}
+  (Session info: chrome=91.0.4472.77)
+[1622620969.948][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Авторизация']"
+}
+[1622620969.948][INFO]: Waiting for pending navigations...
+[1622620969.949][INFO]: Done waiting for pending navigations. Status: ok
+[1622620969.953][INFO]: Waiting for pending navigations...
+[1622620969.953][INFO]: Done waiting for pending navigations. Status: ok
+[1622620969.953][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Авторизация']"}
+  (Session info: chrome=91.0.4472.77)
+[1622620970.171][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Авторизация']"
+}
+[1622620970.171][INFO]: Waiting for pending navigations...
+[1622620970.172][INFO]: Done waiting for pending navigations. Status: ok
+[1622620970.176][INFO]: Waiting for pending navigations...
+[1622620970.176][INFO]: Done waiting for pending navigations. Status: ok
+[1622620970.176][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Авторизация']"}
+  (Session info: chrome=91.0.4472.77)
+[1622620970.389][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Авторизация']"
+}
+[1622620970.389][INFO]: Waiting for pending navigations...
+[1622620970.389][INFO]: Done waiting for pending navigations. Status: ok
+[1622620970.393][INFO]: Waiting for pending navigations...
+[1622620970.393][INFO]: Done waiting for pending navigations. Status: ok
+[1622620970.393][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Авторизация']"}
+  (Session info: chrome=91.0.4472.77)
+[1622620970.607][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Авторизация']"
+}
+[1622620970.607][INFO]: Waiting for pending navigations...
+[1622620970.608][INFO]: Done waiting for pending navigations. Status: ok
+[1622620970.611][INFO]: Waiting for pending navigations...
+[1622620970.612][INFO]: Done waiting for pending navigations. Status: ok
+[1622620970.612][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Авторизация']"}
+  (Session info: chrome=91.0.4472.77)
+[1622620970.831][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text()='Авторизация']"
+}
+[1622620970.831][INFO]: Waiting for pending navigations...
+[1622620970.831][INFO]: Done waiting for pending navigations. Status: ok
+[1622620970.834][INFO]: Waiting for pending navigations...
+[1622620970.835][INFO]: Done waiting for pending navigations. Status: ok
+[1622620970.835][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Авторизация']"}
+  (Session info: chrome=91.0.4472.77)
+[1622620971.050][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1622620971.050][INFO]: Waiting for pending navigations...
+[1622620971.050][INFO]: Done waiting for pending navigations. Status: ok
+[1622620971.053][INFO]: Waiting for pending navigations...
+[1622620971.054][INFO]: Done waiting for pending navigations. Status: ok
+[1622620971.054][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] RESPONSE ExecuteScript "\u003Chtml lang=\"en\">\u003Chead>\u003Cmeta charset=\"UTF-8\">\u003Cmeta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\u003Cmeta name=\"description\" content=\"Creative Integrator\">\u003Clink rel=\"stylesheet\" href=\"ht..."
+[1622620971.058][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] COMMAND Screenshot {
+
+}
+[1622620971.059][INFO]: Waiting for pending navigations...
+[1622620971.059][INFO]: Done waiting for pending navigations. Status: ok
+[1622620971.137][INFO]: Waiting for pending navigations...
+[1622620971.138][INFO]: Done waiting for pending navigations. Status: ok
+[1622620971.138][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X9s3fW93/HXseP8cEwuxEBj0mAMSXYpoaC0FblVm3UpvbsLQ6K9Aoa2UnFzdyfUVqkq5V62C0yXy3TR2O5AgHKlOy5quyvG0HIr3YVVKuuAri2oalQu4WZta..."
+[1622620971.195][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] COMMAND Quit {
+
+}
+[1622620971.394][INFO]: [3da980ad4c2733535e4523f8a58d3d0b] RESPONSE Quit

@@ -1,0 +1,374 @@
+[1622531768.856][INFO]: Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 20763
+[1622531768.856][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1622531769.574][INFO]: [ce7b74b0b51ea4081d04576d7035a370] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\user\\IdeaProjects\\TrekerAutoTest\\build\\downloads\\1622531767894_2620_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\user\\IdeaProjects\\TrekerAutoTest\\build\\downloads\\1622531767894_2620_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1622531769.577][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\user\\IdeaProjects\\TrekerAutoTest\\build\\downloads\\1622531767894_2620_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1622531769.578][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1622531769.580][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\user\AppData\Local\Temp\scoped_dir8340_1217221714" data:,
+[1622531770.236][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1622531770.239][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1622531770.245][INFO]: [ce7b74b0b51ea4081d04576d7035a370] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "91.0.4472.77",
+      "chrome": {
+         "chromedriverVersion": "91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288})",
+         "userDataDir": "C:\\Users\\user\\AppData\\Local\\Temp\\scoped_dir8340_1217221714"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:51648"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "ce7b74b0b51ea4081d04576d7035a370"
+}
+[1622531770.300][INFO]: [ce7b74b0b51ea4081d04576d7035a370] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1622531770.300][INFO]: Waiting for pending navigations...
+[1622531770.303][INFO]: Done waiting for pending navigations. Status: ok
+[1622531770.417][INFO]: Waiting for pending navigations...
+[1622531770.418][INFO]: Done waiting for pending navigations. Status: ok
+[1622531770.418][INFO]: [ce7b74b0b51ea4081d04576d7035a370] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1622531770.422][INFO]: [ce7b74b0b51ea4081d04576d7035a370] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1622531770.422][INFO]: [ce7b74b0b51ea4081d04576d7035a370] RESPONSE SetTimeouts
+[1622531770.430][INFO]: [ce7b74b0b51ea4081d04576d7035a370] COMMAND Navigate {
+   "url": "https://hub.crtweb.ru/tracker?day=20210601"
+}
+[1622531770.430][INFO]: Waiting for pending navigations...
+[1622531770.430][INFO]: Done waiting for pending navigations. Status: ok
+[1622531770.658][INFO]: Waiting for pending navigations...
+[1622531772.452][INFO]: Done waiting for pending navigations. Status: ok
+[1622531772.452][INFO]: [ce7b74b0b51ea4081d04576d7035a370] RESPONSE Navigate
+[1622531772.504][INFO]: [ce7b74b0b51ea4081d04576d7035a370] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiButtonBase\\-root\\ MuiButton\\-root\\ MuiButton\\-contained\\ _36zgj\\ MuiButton\\-containedPrimary"
+}
+[1622531772.504][INFO]: Waiting for pending navigations...
+[1622531772.505][INFO]: Done waiting for pending navigations. Status: ok
+[1622531772.512][INFO]: Waiting for pending navigations...
+[1622531772.512][INFO]: Done waiting for pending navigations. Status: ok
+[1622531772.512][INFO]: [ce7b74b0b51ea4081d04576d7035a370] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiButtonBase\-root\ MuiButton\-root\ MuiButton\-contained\ _36zgj\ MuiButton\-containedPrimary"}
+  (Session info: chrome=91.0.4472.77)
+[1622531772.727][INFO]: [ce7b74b0b51ea4081d04576d7035a370] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiButtonBase\\-root\\ MuiButton\\-root\\ MuiButton\\-contained\\ _36zgj\\ MuiButton\\-containedPrimary"
+}
+[1622531772.727][INFO]: Waiting for pending navigations...
+[1622531772.728][INFO]: Done waiting for pending navigations. Status: ok
+[1622531772.731][INFO]: Waiting for pending navigations...
+[1622531772.731][INFO]: Done waiting for pending navigations. Status: ok
+[1622531772.731][INFO]: [ce7b74b0b51ea4081d04576d7035a370] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiButtonBase\-root\ MuiButton\-root\ MuiButton\-contained\ _36zgj\ MuiButton\-containedPrimary"}
+  (Session info: chrome=91.0.4472.77)
+[1622531772.946][INFO]: [ce7b74b0b51ea4081d04576d7035a370] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiButtonBase\\-root\\ MuiButton\\-root\\ MuiButton\\-contained\\ _36zgj\\ MuiButton\\-containedPrimary"
+}
+[1622531772.946][INFO]: Waiting for pending navigations...
+[1622531772.947][INFO]: Done waiting for pending navigations. Status: ok
+[1622531772.950][INFO]: Waiting for pending navigations...
+[1622531772.950][INFO]: Done waiting for pending navigations. Status: ok
+[1622531772.950][INFO]: [ce7b74b0b51ea4081d04576d7035a370] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiButtonBase\-root\ MuiButton\-root\ MuiButton\-contained\ _36zgj\ MuiButton\-containedPrimary"}
+  (Session info: chrome=91.0.4472.77)
+[1622531773.165][INFO]: [ce7b74b0b51ea4081d04576d7035a370] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiButtonBase\\-root\\ MuiButton\\-root\\ MuiButton\\-contained\\ _36zgj\\ MuiButton\\-containedPrimary"
+}
+[1622531773.165][INFO]: Waiting for pending navigations...
+[1622531773.165][INFO]: Done waiting for pending navigations. Status: ok
+[1622531773.169][INFO]: Waiting for pending navigations...
+[1622531773.169][INFO]: Done waiting for pending navigations. Status: ok
+[1622531773.169][INFO]: [ce7b74b0b51ea4081d04576d7035a370] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiButtonBase\-root\ MuiButton\-root\ MuiButton\-contained\ _36zgj\ MuiButton\-containedPrimary"}
+  (Session info: chrome=91.0.4472.77)
+[1622531773.382][INFO]: [ce7b74b0b51ea4081d04576d7035a370] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiButtonBase\\-root\\ MuiButton\\-root\\ MuiButton\\-contained\\ _36zgj\\ MuiButton\\-containedPrimary"
+}
+[1622531773.382][INFO]: Waiting for pending navigations...
+[1622531773.383][INFO]: Done waiting for pending navigations. Status: ok
+[1622531773.386][INFO]: Waiting for pending navigations...
+[1622531773.386][INFO]: Done waiting for pending navigations. Status: ok
+[1622531773.386][INFO]: [ce7b74b0b51ea4081d04576d7035a370] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiButtonBase\-root\ MuiButton\-root\ MuiButton\-contained\ _36zgj\ MuiButton\-containedPrimary"}
+  (Session info: chrome=91.0.4472.77)
+[1622531773.601][INFO]: [ce7b74b0b51ea4081d04576d7035a370] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiButtonBase\\-root\\ MuiButton\\-root\\ MuiButton\\-contained\\ _36zgj\\ MuiButton\\-containedPrimary"
+}
+[1622531773.601][INFO]: Waiting for pending navigations...
+[1622531773.601][INFO]: Done waiting for pending navigations. Status: ok
+[1622531773.605][INFO]: Waiting for pending navigations...
+[1622531773.605][INFO]: Done waiting for pending navigations. Status: ok
+[1622531773.605][INFO]: [ce7b74b0b51ea4081d04576d7035a370] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiButtonBase\-root\ MuiButton\-root\ MuiButton\-contained\ _36zgj\ MuiButton\-containedPrimary"}
+  (Session info: chrome=91.0.4472.77)
+[1622531773.818][INFO]: [ce7b74b0b51ea4081d04576d7035a370] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiButtonBase\\-root\\ MuiButton\\-root\\ MuiButton\\-contained\\ _36zgj\\ MuiButton\\-containedPrimary"
+}
+[1622531773.818][INFO]: Waiting for pending navigations...
+[1622531773.818][INFO]: Done waiting for pending navigations. Status: ok
+[1622531773.821][INFO]: Waiting for pending navigations...
+[1622531773.821][INFO]: Done waiting for pending navigations. Status: ok
+[1622531773.822][INFO]: [ce7b74b0b51ea4081d04576d7035a370] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiButtonBase\-root\ MuiButton\-root\ MuiButton\-contained\ _36zgj\ MuiButton\-containedPrimary"}
+  (Session info: chrome=91.0.4472.77)
+[1622531774.035][INFO]: [ce7b74b0b51ea4081d04576d7035a370] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiButtonBase\\-root\\ MuiButton\\-root\\ MuiButton\\-contained\\ _36zgj\\ MuiButton\\-containedPrimary"
+}
+[1622531774.035][INFO]: Waiting for pending navigations...
+[1622531774.036][INFO]: Done waiting for pending navigations. Status: ok
+[1622531774.039][INFO]: Waiting for pending navigations...
+[1622531774.039][INFO]: Done waiting for pending navigations. Status: ok
+[1622531774.040][INFO]: [ce7b74b0b51ea4081d04576d7035a370] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiButtonBase\-root\ MuiButton\-root\ MuiButton\-contained\ _36zgj\ MuiButton\-containedPrimary"}
+  (Session info: chrome=91.0.4472.77)
+[1622531774.256][INFO]: [ce7b74b0b51ea4081d04576d7035a370] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiButtonBase\\-root\\ MuiButton\\-root\\ MuiButton\\-contained\\ _36zgj\\ MuiButton\\-containedPrimary"
+}
+[1622531774.256][INFO]: Waiting for pending navigations...
+[1622531774.256][INFO]: Done waiting for pending navigations. Status: ok
+[1622531774.260][INFO]: Waiting for pending navigations...
+[1622531774.260][INFO]: Done waiting for pending navigations. Status: ok
+[1622531774.260][INFO]: [ce7b74b0b51ea4081d04576d7035a370] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiButtonBase\-root\ MuiButton\-root\ MuiButton\-contained\ _36zgj\ MuiButton\-containedPrimary"}
+  (Session info: chrome=91.0.4472.77)
+[1622531774.474][INFO]: [ce7b74b0b51ea4081d04576d7035a370] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiButtonBase\\-root\\ MuiButton\\-root\\ MuiButton\\-contained\\ _36zgj\\ MuiButton\\-containedPrimary"
+}
+[1622531774.474][INFO]: Waiting for pending navigations...
+[1622531774.475][INFO]: Done waiting for pending navigations. Status: ok
+[1622531774.479][INFO]: Waiting for pending navigations...
+[1622531774.479][INFO]: Done waiting for pending navigations. Status: ok
+[1622531774.479][INFO]: [ce7b74b0b51ea4081d04576d7035a370] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiButtonBase\-root\ MuiButton\-root\ MuiButton\-contained\ _36zgj\ MuiButton\-containedPrimary"}
+  (Session info: chrome=91.0.4472.77)
+[1622531774.691][INFO]: [ce7b74b0b51ea4081d04576d7035a370] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiButtonBase\\-root\\ MuiButton\\-root\\ MuiButton\\-contained\\ _36zgj\\ MuiButton\\-containedPrimary"
+}
+[1622531774.691][INFO]: Waiting for pending navigations...
+[1622531774.692][INFO]: Done waiting for pending navigations. Status: ok
+[1622531774.695][INFO]: Waiting for pending navigations...
+[1622531774.695][INFO]: Done waiting for pending navigations. Status: ok
+[1622531774.695][INFO]: [ce7b74b0b51ea4081d04576d7035a370] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiButtonBase\-root\ MuiButton\-root\ MuiButton\-contained\ _36zgj\ MuiButton\-containedPrimary"}
+  (Session info: chrome=91.0.4472.77)
+[1622531774.915][INFO]: [ce7b74b0b51ea4081d04576d7035a370] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiButtonBase\\-root\\ MuiButton\\-root\\ MuiButton\\-contained\\ _36zgj\\ MuiButton\\-containedPrimary"
+}
+[1622531774.915][INFO]: Waiting for pending navigations...
+[1622531774.917][INFO]: Done waiting for pending navigations. Status: ok
+[1622531774.930][INFO]: Waiting for pending navigations...
+[1622531774.932][INFO]: Done waiting for pending navigations. Status: ok
+[1622531774.932][INFO]: [ce7b74b0b51ea4081d04576d7035a370] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiButtonBase\-root\ MuiButton\-root\ MuiButton\-contained\ _36zgj\ MuiButton\-containedPrimary"}
+  (Session info: chrome=91.0.4472.77)
+[1622531775.149][INFO]: [ce7b74b0b51ea4081d04576d7035a370] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiButtonBase\\-root\\ MuiButton\\-root\\ MuiButton\\-contained\\ _36zgj\\ MuiButton\\-containedPrimary"
+}
+[1622531775.149][INFO]: Waiting for pending navigations...
+[1622531775.150][INFO]: Done waiting for pending navigations. Status: ok
+[1622531775.165][INFO]: Waiting for pending navigations...
+[1622531775.167][INFO]: Done waiting for pending navigations. Status: ok
+[1622531775.167][INFO]: [ce7b74b0b51ea4081d04576d7035a370] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiButtonBase\-root\ MuiButton\-root\ MuiButton\-contained\ _36zgj\ MuiButton\-containedPrimary"}
+  (Session info: chrome=91.0.4472.77)
+[1622531775.383][INFO]: [ce7b74b0b51ea4081d04576d7035a370] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiButtonBase\\-root\\ MuiButton\\-root\\ MuiButton\\-contained\\ _36zgj\\ MuiButton\\-containedPrimary"
+}
+[1622531775.383][INFO]: Waiting for pending navigations...
+[1622531775.385][INFO]: Done waiting for pending navigations. Status: ok
+[1622531775.398][INFO]: Waiting for pending navigations...
+[1622531775.399][INFO]: Done waiting for pending navigations. Status: ok
+[1622531775.399][INFO]: [ce7b74b0b51ea4081d04576d7035a370] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiButtonBase\-root\ MuiButton\-root\ MuiButton\-contained\ _36zgj\ MuiButton\-containedPrimary"}
+  (Session info: chrome=91.0.4472.77)
+[1622531775.609][INFO]: [ce7b74b0b51ea4081d04576d7035a370] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiButtonBase\\-root\\ MuiButton\\-root\\ MuiButton\\-contained\\ _36zgj\\ MuiButton\\-containedPrimary"
+}
+[1622531775.609][INFO]: Waiting for pending navigations...
+[1622531775.610][INFO]: Done waiting for pending navigations. Status: ok
+[1622531775.614][INFO]: Waiting for pending navigations...
+[1622531775.614][INFO]: Done waiting for pending navigations. Status: ok
+[1622531775.614][INFO]: [ce7b74b0b51ea4081d04576d7035a370] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiButtonBase\-root\ MuiButton\-root\ MuiButton\-contained\ _36zgj\ MuiButton\-containedPrimary"}
+  (Session info: chrome=91.0.4472.77)
+[1622531775.832][INFO]: [ce7b74b0b51ea4081d04576d7035a370] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiButtonBase\\-root\\ MuiButton\\-root\\ MuiButton\\-contained\\ _36zgj\\ MuiButton\\-containedPrimary"
+}
+[1622531775.832][INFO]: Waiting for pending navigations...
+[1622531775.833][INFO]: Done waiting for pending navigations. Status: ok
+[1622531775.847][INFO]: Waiting for pending navigations...
+[1622531775.848][INFO]: Done waiting for pending navigations. Status: ok
+[1622531775.849][INFO]: [ce7b74b0b51ea4081d04576d7035a370] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiButtonBase\-root\ MuiButton\-root\ MuiButton\-contained\ _36zgj\ MuiButton\-containedPrimary"}
+  (Session info: chrome=91.0.4472.77)
+[1622531776.067][INFO]: [ce7b74b0b51ea4081d04576d7035a370] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiButtonBase\\-root\\ MuiButton\\-root\\ MuiButton\\-contained\\ _36zgj\\ MuiButton\\-containedPrimary"
+}
+[1622531776.067][INFO]: Waiting for pending navigations...
+[1622531776.069][INFO]: Done waiting for pending navigations. Status: ok
+[1622531776.083][INFO]: Waiting for pending navigations...
+[1622531776.084][INFO]: Done waiting for pending navigations. Status: ok
+[1622531776.084][INFO]: [ce7b74b0b51ea4081d04576d7035a370] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiButtonBase\-root\ MuiButton\-root\ MuiButton\-contained\ _36zgj\ MuiButton\-containedPrimary"}
+  (Session info: chrome=91.0.4472.77)
+[1622531776.300][INFO]: [ce7b74b0b51ea4081d04576d7035a370] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiButtonBase\\-root\\ MuiButton\\-root\\ MuiButton\\-contained\\ _36zgj\\ MuiButton\\-containedPrimary"
+}
+[1622531776.300][INFO]: Waiting for pending navigations...
+[1622531776.302][INFO]: Done waiting for pending navigations. Status: ok
+[1622531776.316][INFO]: Waiting for pending navigations...
+[1622531776.317][INFO]: Done waiting for pending navigations. Status: ok
+[1622531776.317][INFO]: [ce7b74b0b51ea4081d04576d7035a370] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiButtonBase\-root\ MuiButton\-root\ MuiButton\-contained\ _36zgj\ MuiButton\-containedPrimary"}
+  (Session info: chrome=91.0.4472.77)
+[1622531776.538][INFO]: [ce7b74b0b51ea4081d04576d7035a370] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1622531776.538][INFO]: Waiting for pending navigations...
+[1622531776.540][INFO]: Done waiting for pending navigations. Status: ok
+[1622531776.550][INFO]: Waiting for pending navigations...
+[1622531776.552][INFO]: Done waiting for pending navigations. Status: ok
+[1622531776.552][INFO]: [ce7b74b0b51ea4081d04576d7035a370] RESPONSE ExecuteScript "\u003Chtml lang=\"en\">\u003Chead>\u003Cmeta charset=\"UTF-8\">\u003Cmeta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\u003Cmeta name=\"description\" content=\"Creative Integrator\">\u003Clink rel=\"stylesheet\" href=\"ht..."
+[1622531776.573][INFO]: [ce7b74b0b51ea4081d04576d7035a370] COMMAND Screenshot {
+
+}
+[1622531776.573][INFO]: Waiting for pending navigations...
+[1622531776.574][INFO]: Done waiting for pending navigations. Status: ok
+[1622531776.705][INFO]: Waiting for pending navigations...
+[1622531776.706][INFO]: Done waiting for pending navigations. Status: ok
+[1622531776.706][INFO]: [ce7b74b0b51ea4081d04576d7035a370] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X9s3fW93/HXseP8cEwuxEBj0mAMSXYpoaC0FblVm3UpvbsLQ6K9Aoa2UnFzdyfUVqkq5V62C0yXy3TR2O5AgHKlOy5quyvG0HIr3YVVKuuAri2oalQu4WZta..."
+[1622531776.736][INFO]: [ce7b74b0b51ea4081d04576d7035a370] COMMAND Quit {
+
+}
+[1622531776.827][INFO]: [ce7b74b0b51ea4081d04576d7035a370] RESPONSE Quit

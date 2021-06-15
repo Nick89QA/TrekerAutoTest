@@ -1,0 +1,182 @@
+[1622695927.215][INFO]: Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 14119
+[1622695927.215][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1622695927.915][INFO]: [37ef0111aa574deec16bca2efcb922c7] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\user\\IdeaProjects\\TrekerAutoTest\\build\\downloads\\1622695926277_4576_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\user\\IdeaProjects\\TrekerAutoTest\\build\\downloads\\1622695926277_4576_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1622695927.918][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\user\\IdeaProjects\\TrekerAutoTest\\build\\downloads\\1622695926277_4576_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1622695927.918][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1622695927.920][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\user\AppData\Local\Temp\scoped_dir9336_1009357217" data:,
+[1622695928.474][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1622695928.476][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1622695928.484][INFO]: [37ef0111aa574deec16bca2efcb922c7] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "91.0.4472.77",
+      "chrome": {
+         "chromedriverVersion": "91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288})",
+         "userDataDir": "C:\\Users\\user\\AppData\\Local\\Temp\\scoped_dir9336_1009357217"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:63902"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "37ef0111aa574deec16bca2efcb922c7"
+}
+[1622695928.562][INFO]: [37ef0111aa574deec16bca2efcb922c7] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1622695928.562][INFO]: Waiting for pending navigations...
+[1622695928.568][INFO]: Done waiting for pending navigations. Status: ok
+[1622695928.696][INFO]: Waiting for pending navigations...
+[1622695928.697][INFO]: Done waiting for pending navigations. Status: ok
+[1622695928.697][INFO]: [37ef0111aa574deec16bca2efcb922c7] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1622695928.703][INFO]: [37ef0111aa574deec16bca2efcb922c7] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1622695928.703][INFO]: [37ef0111aa574deec16bca2efcb922c7] RESPONSE SetTimeouts
+[1622695928.711][INFO]: [37ef0111aa574deec16bca2efcb922c7] COMMAND Navigate {
+   "url": "http://localhost:8080"
+}
+[1622695928.711][INFO]: Waiting for pending navigations...
+[1622695928.712][INFO]: Done waiting for pending navigations. Status: ok
+[1622695932.876][INFO]: Waiting for pending navigations...
+[1622695932.940][INFO]: Done waiting for pending navigations. Status: ok
+[1622695933.049][INFO]: Waiting for pending navigations...
+[1622695933.056][INFO]: Done waiting for pending navigations. Status: ok
+[1622695937.082][INFO]: Waiting for pending navigations...
+[1622695937.092][INFO]: Done waiting for pending navigations. Status: ok
+[1622695937.092][INFO]: [37ef0111aa574deec16bca2efcb922c7] RESPONSE Navigate ERROR unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=91.0.4472.77)
+[1622695937.116][INFO]: [37ef0111aa574deec16bca2efcb922c7] COMMAND Quit {
+
+}
+[1622695937.235][INFO]: [37ef0111aa574deec16bca2efcb922c7] RESPONSE Quit

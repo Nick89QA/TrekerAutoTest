@@ -1,0 +1,374 @@
+[1622537777.398][INFO]: Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 43404
+[1622537777.399][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1622537778.114][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\user\\IdeaProjects\\TrekerAutoTest\\build\\downloads\\1622537776209_9920_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\user\\IdeaProjects\\TrekerAutoTest\\build\\downloads\\1622537776209_9920_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1622537778.118][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\user\\IdeaProjects\\TrekerAutoTest\\build\\downloads\\1622537776209_9920_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1622537778.118][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1622537778.120][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\user\AppData\Local\Temp\scoped_dir7564_869399555" data:,
+[1622537778.852][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1622537778.855][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1622537778.861][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "91.0.4472.77",
+      "chrome": {
+         "chromedriverVersion": "91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288})",
+         "userDataDir": "C:\\Users\\user\\AppData\\Local\\Temp\\scoped_dir7564_869399555"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:57861"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "e6f88d58ffff891060e4619bb2e6fed7"
+}
+[1622537778.917][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1622537778.917][INFO]: Waiting for pending navigations...
+[1622537778.918][INFO]: Done waiting for pending navigations. Status: ok
+[1622537779.041][INFO]: Waiting for pending navigations...
+[1622537779.042][INFO]: Done waiting for pending navigations. Status: ok
+[1622537779.042][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1622537779.048][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1622537779.048][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] RESPONSE SetTimeouts
+[1622537779.057][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] COMMAND Navigate {
+   "url": "https://hub.crtweb.ru/tracker"
+}
+[1622537779.057][INFO]: Waiting for pending navigations...
+[1622537779.059][INFO]: Done waiting for pending navigations. Status: ok
+[1622537779.220][INFO]: Waiting for pending navigations...
+[1622537780.504][INFO]: Done waiting for pending navigations. Status: ok
+[1622537780.504][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] RESPONSE Navigate
+[1622537780.568][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiBox\\-root\\ jss1\\ tJgAi"
+}
+[1622537780.568][INFO]: Waiting for pending navigations...
+[1622537780.568][INFO]: Done waiting for pending navigations. Status: ok
+[1622537780.578][INFO]: Waiting for pending navigations...
+[1622537780.579][INFO]: Done waiting for pending navigations. Status: ok
+[1622537780.579][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiBox\-root\ jss1\ tJgAi"}
+  (Session info: chrome=91.0.4472.77)
+[1622537780.801][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiBox\\-root\\ jss1\\ tJgAi"
+}
+[1622537780.801][INFO]: Waiting for pending navigations...
+[1622537780.802][INFO]: Done waiting for pending navigations. Status: ok
+[1622537780.806][INFO]: Waiting for pending navigations...
+[1622537780.806][INFO]: Done waiting for pending navigations. Status: ok
+[1622537780.806][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiBox\-root\ jss1\ tJgAi"}
+  (Session info: chrome=91.0.4472.77)
+[1622537781.022][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiBox\\-root\\ jss1\\ tJgAi"
+}
+[1622537781.022][INFO]: Waiting for pending navigations...
+[1622537781.022][INFO]: Done waiting for pending navigations. Status: ok
+[1622537781.027][INFO]: Waiting for pending navigations...
+[1622537781.027][INFO]: Done waiting for pending navigations. Status: ok
+[1622537781.027][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiBox\-root\ jss1\ tJgAi"}
+  (Session info: chrome=91.0.4472.77)
+[1622537781.244][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiBox\\-root\\ jss1\\ tJgAi"
+}
+[1622537781.244][INFO]: Waiting for pending navigations...
+[1622537781.245][INFO]: Done waiting for pending navigations. Status: ok
+[1622537781.249][INFO]: Waiting for pending navigations...
+[1622537781.249][INFO]: Done waiting for pending navigations. Status: ok
+[1622537781.249][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiBox\-root\ jss1\ tJgAi"}
+  (Session info: chrome=91.0.4472.77)
+[1622537781.466][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiBox\\-root\\ jss1\\ tJgAi"
+}
+[1622537781.467][INFO]: Waiting for pending navigations...
+[1622537781.467][INFO]: Done waiting for pending navigations. Status: ok
+[1622537781.471][INFO]: Waiting for pending navigations...
+[1622537781.471][INFO]: Done waiting for pending navigations. Status: ok
+[1622537781.471][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiBox\-root\ jss1\ tJgAi"}
+  (Session info: chrome=91.0.4472.77)
+[1622537781.688][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiBox\\-root\\ jss1\\ tJgAi"
+}
+[1622537781.688][INFO]: Waiting for pending navigations...
+[1622537781.688][INFO]: Done waiting for pending navigations. Status: ok
+[1622537781.692][INFO]: Waiting for pending navigations...
+[1622537781.692][INFO]: Done waiting for pending navigations. Status: ok
+[1622537781.692][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiBox\-root\ jss1\ tJgAi"}
+  (Session info: chrome=91.0.4472.77)
+[1622537781.911][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiBox\\-root\\ jss1\\ tJgAi"
+}
+[1622537781.911][INFO]: Waiting for pending navigations...
+[1622537781.912][INFO]: Done waiting for pending navigations. Status: ok
+[1622537781.916][INFO]: Waiting for pending navigations...
+[1622537781.916][INFO]: Done waiting for pending navigations. Status: ok
+[1622537781.916][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiBox\-root\ jss1\ tJgAi"}
+  (Session info: chrome=91.0.4472.77)
+[1622537782.135][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiBox\\-root\\ jss1\\ tJgAi"
+}
+[1622537782.135][INFO]: Waiting for pending navigations...
+[1622537782.135][INFO]: Done waiting for pending navigations. Status: ok
+[1622537782.139][INFO]: Waiting for pending navigations...
+[1622537782.140][INFO]: Done waiting for pending navigations. Status: ok
+[1622537782.140][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiBox\-root\ jss1\ tJgAi"}
+  (Session info: chrome=91.0.4472.77)
+[1622537782.358][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiBox\\-root\\ jss1\\ tJgAi"
+}
+[1622537782.358][INFO]: Waiting for pending navigations...
+[1622537782.359][INFO]: Done waiting for pending navigations. Status: ok
+[1622537782.363][INFO]: Waiting for pending navigations...
+[1622537782.363][INFO]: Done waiting for pending navigations. Status: ok
+[1622537782.363][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiBox\-root\ jss1\ tJgAi"}
+  (Session info: chrome=91.0.4472.77)
+[1622537782.581][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiBox\\-root\\ jss1\\ tJgAi"
+}
+[1622537782.581][INFO]: Waiting for pending navigations...
+[1622537782.582][INFO]: Done waiting for pending navigations. Status: ok
+[1622537782.587][INFO]: Waiting for pending navigations...
+[1622537782.587][INFO]: Done waiting for pending navigations. Status: ok
+[1622537782.587][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiBox\-root\ jss1\ tJgAi"}
+  (Session info: chrome=91.0.4472.77)
+[1622537782.804][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiBox\\-root\\ jss1\\ tJgAi"
+}
+[1622537782.804][INFO]: Waiting for pending navigations...
+[1622537782.804][INFO]: Done waiting for pending navigations. Status: ok
+[1622537782.809][INFO]: Waiting for pending navigations...
+[1622537782.809][INFO]: Done waiting for pending navigations. Status: ok
+[1622537782.809][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiBox\-root\ jss1\ tJgAi"}
+  (Session info: chrome=91.0.4472.77)
+[1622537783.027][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiBox\\-root\\ jss1\\ tJgAi"
+}
+[1622537783.027][INFO]: Waiting for pending navigations...
+[1622537783.028][INFO]: Done waiting for pending navigations. Status: ok
+[1622537783.031][INFO]: Waiting for pending navigations...
+[1622537783.032][INFO]: Done waiting for pending navigations. Status: ok
+[1622537783.032][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiBox\-root\ jss1\ tJgAi"}
+  (Session info: chrome=91.0.4472.77)
+[1622537783.249][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiBox\\-root\\ jss1\\ tJgAi"
+}
+[1622537783.249][INFO]: Waiting for pending navigations...
+[1622537783.249][INFO]: Done waiting for pending navigations. Status: ok
+[1622537783.254][INFO]: Waiting for pending navigations...
+[1622537783.254][INFO]: Done waiting for pending navigations. Status: ok
+[1622537783.254][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiBox\-root\ jss1\ tJgAi"}
+  (Session info: chrome=91.0.4472.77)
+[1622537783.469][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiBox\\-root\\ jss1\\ tJgAi"
+}
+[1622537783.469][INFO]: Waiting for pending navigations...
+[1622537783.470][INFO]: Done waiting for pending navigations. Status: ok
+[1622537783.474][INFO]: Waiting for pending navigations...
+[1622537783.474][INFO]: Done waiting for pending navigations. Status: ok
+[1622537783.474][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiBox\-root\ jss1\ tJgAi"}
+  (Session info: chrome=91.0.4472.77)
+[1622537783.691][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiBox\\-root\\ jss1\\ tJgAi"
+}
+[1622537783.691][INFO]: Waiting for pending navigations...
+[1622537783.691][INFO]: Done waiting for pending navigations. Status: ok
+[1622537783.696][INFO]: Waiting for pending navigations...
+[1622537783.696][INFO]: Done waiting for pending navigations. Status: ok
+[1622537783.696][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiBox\-root\ jss1\ tJgAi"}
+  (Session info: chrome=91.0.4472.77)
+[1622537783.912][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiBox\\-root\\ jss1\\ tJgAi"
+}
+[1622537783.912][INFO]: Waiting for pending navigations...
+[1622537783.912][INFO]: Done waiting for pending navigations. Status: ok
+[1622537783.915][INFO]: Waiting for pending navigations...
+[1622537783.916][INFO]: Done waiting for pending navigations. Status: ok
+[1622537783.916][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiBox\-root\ jss1\ tJgAi"}
+  (Session info: chrome=91.0.4472.77)
+[1622537784.135][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiBox\\-root\\ jss1\\ tJgAi"
+}
+[1622537784.135][INFO]: Waiting for pending navigations...
+[1622537784.136][INFO]: Done waiting for pending navigations. Status: ok
+[1622537784.139][INFO]: Waiting for pending navigations...
+[1622537784.139][INFO]: Done waiting for pending navigations. Status: ok
+[1622537784.139][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiBox\-root\ jss1\ tJgAi"}
+  (Session info: chrome=91.0.4472.77)
+[1622537784.357][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".MuiBox\\-root\\ jss1\\ tJgAi"
+}
+[1622537784.357][INFO]: Waiting for pending navigations...
+[1622537784.358][INFO]: Done waiting for pending navigations. Status: ok
+[1622537784.361][INFO]: Waiting for pending navigations...
+[1622537784.361][INFO]: Done waiting for pending navigations. Status: ok
+[1622537784.361][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".MuiBox\-root\ jss1\ tJgAi"}
+  (Session info: chrome=91.0.4472.77)
+[1622537784.580][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1622537784.580][INFO]: Waiting for pending navigations...
+[1622537784.581][INFO]: Done waiting for pending navigations. Status: ok
+[1622537784.583][INFO]: Waiting for pending navigations...
+[1622537784.584][INFO]: Done waiting for pending navigations. Status: ok
+[1622537784.584][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] RESPONSE ExecuteScript "\u003Chtml lang=\"en\">\u003Chead>\u003Cmeta charset=\"UTF-8\">\u003Cmeta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\u003Cmeta name=\"description\" content=\"Creative Integrator\">\u003Clink rel=\"stylesheet\" href=\"ht..."
+[1622537784.593][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] COMMAND Screenshot {
+
+}
+[1622537784.593][INFO]: Waiting for pending navigations...
+[1622537784.594][INFO]: Done waiting for pending navigations. Status: ok
+[1622537784.672][INFO]: Waiting for pending navigations...
+[1622537784.672][INFO]: Done waiting for pending navigations. Status: ok
+[1622537784.672][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X9s3fW93/HXseP8cEwuxEBj0mAMSXYpoaC0FblVm3UpvbsLQ6K9Aoa2UnFzdyfUVqkq5V62C0yXy3TR2O5AgHKlOy5quyvG0HIr3YVVKuuAri2oalQu4WZta..."
+[1622537784.699][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] COMMAND Quit {
+
+}
+[1622537784.803][INFO]: [e6f88d58ffff891060e4619bb2e6fed7] RESPONSE Quit

@@ -1,0 +1,374 @@
+[1622537173.914][INFO]: Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 20532
+[1622537173.914][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1622537174.623][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\user\\IdeaProjects\\TrekerAutoTest\\build\\downloads\\1622537173022_7392_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\user\\IdeaProjects\\TrekerAutoTest\\build\\downloads\\1622537173022_7392_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1622537174.626][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\user\\IdeaProjects\\TrekerAutoTest\\build\\downloads\\1622537173022_7392_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1622537174.627][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1622537174.629][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\user\AppData\Local\Temp\scoped_dir10984_1084901641" data:,
+[1622537175.179][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1622537175.182][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1622537175.190][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "91.0.4472.77",
+      "chrome": {
+         "chromedriverVersion": "91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288})",
+         "userDataDir": "C:\\Users\\user\\AppData\\Local\\Temp\\scoped_dir10984_1084901641"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:50505"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "ad90c82c1af1f347ac3afc676694bfa3"
+}
+[1622537175.246][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1622537175.246][INFO]: Waiting for pending navigations...
+[1622537175.248][INFO]: Done waiting for pending navigations. Status: ok
+[1622537175.363][INFO]: Waiting for pending navigations...
+[1622537175.364][INFO]: Done waiting for pending navigations. Status: ok
+[1622537175.364][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1622537175.369][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1622537175.369][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] RESPONSE SetTimeouts
+[1622537175.376][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] COMMAND Navigate {
+   "url": "https://hub.crtweb.ru/tracker"
+}
+[1622537175.376][INFO]: Waiting for pending navigations...
+[1622537175.377][INFO]: Done waiting for pending navigations. Status: ok
+[1622537175.596][INFO]: Waiting for pending navigations...
+[1622537176.884][INFO]: Done waiting for pending navigations. Status: ok
+[1622537176.884][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] RESPONSE Navigate
+[1622537176.936][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".Авторизация"
+}
+[1622537176.936][INFO]: Waiting for pending navigations...
+[1622537176.937][INFO]: Done waiting for pending navigations. Status: ok
+[1622537176.943][INFO]: Waiting for pending navigations...
+[1622537176.944][INFO]: Done waiting for pending navigations. Status: ok
+[1622537176.944][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".Авторизация"}
+  (Session info: chrome=91.0.4472.77)
+[1622537177.168][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".Авторизация"
+}
+[1622537177.168][INFO]: Waiting for pending navigations...
+[1622537177.168][INFO]: Done waiting for pending navigations. Status: ok
+[1622537177.172][INFO]: Waiting for pending navigations...
+[1622537177.172][INFO]: Done waiting for pending navigations. Status: ok
+[1622537177.172][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".Авторизация"}
+  (Session info: chrome=91.0.4472.77)
+[1622537177.392][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".Авторизация"
+}
+[1622537177.392][INFO]: Waiting for pending navigations...
+[1622537177.392][INFO]: Done waiting for pending navigations. Status: ok
+[1622537177.395][INFO]: Waiting for pending navigations...
+[1622537177.396][INFO]: Done waiting for pending navigations. Status: ok
+[1622537177.396][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".Авторизация"}
+  (Session info: chrome=91.0.4472.77)
+[1622537177.615][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".Авторизация"
+}
+[1622537177.615][INFO]: Waiting for pending navigations...
+[1622537177.616][INFO]: Done waiting for pending navigations. Status: ok
+[1622537177.619][INFO]: Waiting for pending navigations...
+[1622537177.619][INFO]: Done waiting for pending navigations. Status: ok
+[1622537177.619][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".Авторизация"}
+  (Session info: chrome=91.0.4472.77)
+[1622537177.838][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".Авторизация"
+}
+[1622537177.838][INFO]: Waiting for pending navigations...
+[1622537177.839][INFO]: Done waiting for pending navigations. Status: ok
+[1622537177.842][INFO]: Waiting for pending navigations...
+[1622537177.843][INFO]: Done waiting for pending navigations. Status: ok
+[1622537177.843][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".Авторизация"}
+  (Session info: chrome=91.0.4472.77)
+[1622537178.060][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".Авторизация"
+}
+[1622537178.060][INFO]: Waiting for pending navigations...
+[1622537178.060][INFO]: Done waiting for pending navigations. Status: ok
+[1622537178.065][INFO]: Waiting for pending navigations...
+[1622537178.065][INFO]: Done waiting for pending navigations. Status: ok
+[1622537178.065][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".Авторизация"}
+  (Session info: chrome=91.0.4472.77)
+[1622537178.279][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".Авторизация"
+}
+[1622537178.279][INFO]: Waiting for pending navigations...
+[1622537178.280][INFO]: Done waiting for pending navigations. Status: ok
+[1622537178.283][INFO]: Waiting for pending navigations...
+[1622537178.283][INFO]: Done waiting for pending navigations. Status: ok
+[1622537178.283][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".Авторизация"}
+  (Session info: chrome=91.0.4472.77)
+[1622537178.501][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".Авторизация"
+}
+[1622537178.501][INFO]: Waiting for pending navigations...
+[1622537178.502][INFO]: Done waiting for pending navigations. Status: ok
+[1622537178.505][INFO]: Waiting for pending navigations...
+[1622537178.505][INFO]: Done waiting for pending navigations. Status: ok
+[1622537178.505][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".Авторизация"}
+  (Session info: chrome=91.0.4472.77)
+[1622537178.722][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".Авторизация"
+}
+[1622537178.722][INFO]: Waiting for pending navigations...
+[1622537178.723][INFO]: Done waiting for pending navigations. Status: ok
+[1622537178.726][INFO]: Waiting for pending navigations...
+[1622537178.726][INFO]: Done waiting for pending navigations. Status: ok
+[1622537178.726][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".Авторизация"}
+  (Session info: chrome=91.0.4472.77)
+[1622537178.932][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".Авторизация"
+}
+[1622537178.932][INFO]: Waiting for pending navigations...
+[1622537178.932][INFO]: Done waiting for pending navigations. Status: ok
+[1622537178.935][INFO]: Waiting for pending navigations...
+[1622537178.936][INFO]: Done waiting for pending navigations. Status: ok
+[1622537178.936][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".Авторизация"}
+  (Session info: chrome=91.0.4472.77)
+[1622537179.152][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".Авторизация"
+}
+[1622537179.152][INFO]: Waiting for pending navigations...
+[1622537179.153][INFO]: Done waiting for pending navigations. Status: ok
+[1622537179.156][INFO]: Waiting for pending navigations...
+[1622537179.157][INFO]: Done waiting for pending navigations. Status: ok
+[1622537179.157][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".Авторизация"}
+  (Session info: chrome=91.0.4472.77)
+[1622537179.374][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".Авторизация"
+}
+[1622537179.374][INFO]: Waiting for pending navigations...
+[1622537179.375][INFO]: Done waiting for pending navigations. Status: ok
+[1622537179.380][INFO]: Waiting for pending navigations...
+[1622537179.380][INFO]: Done waiting for pending navigations. Status: ok
+[1622537179.380][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".Авторизация"}
+  (Session info: chrome=91.0.4472.77)
+[1622537179.597][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".Авторизация"
+}
+[1622537179.597][INFO]: Waiting for pending navigations...
+[1622537179.599][INFO]: Done waiting for pending navigations. Status: ok
+[1622537179.612][INFO]: Waiting for pending navigations...
+[1622537179.614][INFO]: Done waiting for pending navigations. Status: ok
+[1622537179.614][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".Авторизация"}
+  (Session info: chrome=91.0.4472.77)
+[1622537179.835][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".Авторизация"
+}
+[1622537179.835][INFO]: Waiting for pending navigations...
+[1622537179.836][INFO]: Done waiting for pending navigations. Status: ok
+[1622537179.851][INFO]: Waiting for pending navigations...
+[1622537179.853][INFO]: Done waiting for pending navigations. Status: ok
+[1622537179.853][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".Авторизация"}
+  (Session info: chrome=91.0.4472.77)
+[1622537180.065][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".Авторизация"
+}
+[1622537180.065][INFO]: Waiting for pending navigations...
+[1622537180.066][INFO]: Done waiting for pending navigations. Status: ok
+[1622537180.069][INFO]: Waiting for pending navigations...
+[1622537180.070][INFO]: Done waiting for pending navigations. Status: ok
+[1622537180.070][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".Авторизация"}
+  (Session info: chrome=91.0.4472.77)
+[1622537180.285][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".Авторизация"
+}
+[1622537180.285][INFO]: Waiting for pending navigations...
+[1622537180.286][INFO]: Done waiting for pending navigations. Status: ok
+[1622537180.297][INFO]: Waiting for pending navigations...
+[1622537180.298][INFO]: Done waiting for pending navigations. Status: ok
+[1622537180.298][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".Авторизация"}
+  (Session info: chrome=91.0.4472.77)
+[1622537180.517][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".Авторизация"
+}
+[1622537180.517][INFO]: Waiting for pending navigations...
+[1622537180.518][INFO]: Done waiting for pending navigations. Status: ok
+[1622537180.522][INFO]: Waiting for pending navigations...
+[1622537180.522][INFO]: Done waiting for pending navigations. Status: ok
+[1622537180.522][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".Авторизация"}
+  (Session info: chrome=91.0.4472.77)
+[1622537180.737][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".Авторизация"
+}
+[1622537180.738][INFO]: Waiting for pending navigations...
+[1622537180.739][INFO]: Done waiting for pending navigations. Status: ok
+[1622537180.753][INFO]: Waiting for pending navigations...
+[1622537180.754][INFO]: Done waiting for pending navigations. Status: ok
+[1622537180.755][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".Авторизация"}
+  (Session info: chrome=91.0.4472.77)
+[1622537180.976][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1622537180.976][INFO]: Waiting for pending navigations...
+[1622537180.977][INFO]: Done waiting for pending navigations. Status: ok
+[1622537180.988][INFO]: Waiting for pending navigations...
+[1622537180.990][INFO]: Done waiting for pending navigations. Status: ok
+[1622537180.990][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] RESPONSE ExecuteScript "\u003Chtml lang=\"en\">\u003Chead>\u003Cmeta charset=\"UTF-8\">\u003Cmeta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\u003Cmeta name=\"description\" content=\"Creative Integrator\">\u003Clink rel=\"stylesheet\" href=\"ht..."
+[1622537181.009][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] COMMAND Screenshot {
+
+}
+[1622537181.009][INFO]: Waiting for pending navigations...
+[1622537181.011][INFO]: Done waiting for pending navigations. Status: ok
+[1622537181.118][INFO]: Waiting for pending navigations...
+[1622537181.118][INFO]: Done waiting for pending navigations. Status: ok
+[1622537181.119][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X9s3fW93/HXseP8cEwuxEBj0mAMSXYpoaC0FblVm3UpvbsLQ6K9Aoa2UnFzdyfUVqkq5V62C0yXy3TR2O5AgHKlOy5quyvG0HIr3YVVKuuAri2oalQu4WZta..."
+[1622537181.147][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] COMMAND Quit {
+
+}
+[1622537181.231][INFO]: [ad90c82c1af1f347ac3afc676694bfa3] RESPONSE Quit

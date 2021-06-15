@@ -1,0 +1,245 @@
+[1622719088.855][INFO]: Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 33102
+[1622719088.855][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1622719089.562][INFO]: [0dc55393367bec87e5cea405af783f37] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\user\\IdeaProjects\\TrekerAutoTest\\build\\downloads\\1622719087090_5976_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\user\\IdeaProjects\\TrekerAutoTest\\build\\downloads\\1622719087090_5976_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1622719089.567][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\user\\IdeaProjects\\TrekerAutoTest\\build\\downloads\\1622719087090_5976_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1622719089.568][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1622719089.570][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\user\AppData\Local\Temp\scoped_dir10732_1442905447" data:,
+[1622719090.499][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1622719090.504][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1622719090.510][INFO]: [0dc55393367bec87e5cea405af783f37] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "91.0.4472.77",
+      "chrome": {
+         "chromedriverVersion": "91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288})",
+         "userDataDir": "C:\\Users\\user\\AppData\\Local\\Temp\\scoped_dir10732_1442905447"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:58917"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "0dc55393367bec87e5cea405af783f37"
+}
+[1622719090.586][INFO]: [0dc55393367bec87e5cea405af783f37] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1622719090.587][INFO]: Waiting for pending navigations...
+[1622719090.593][INFO]: Done waiting for pending navigations. Status: ok
+[1622719090.709][INFO]: Waiting for pending navigations...
+[1622719090.710][INFO]: Done waiting for pending navigations. Status: ok
+[1622719090.710][INFO]: [0dc55393367bec87e5cea405af783f37] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1622719090.715][INFO]: [0dc55393367bec87e5cea405af783f37] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1622719090.715][INFO]: [0dc55393367bec87e5cea405af783f37] RESPONSE SetTimeouts
+[1622719090.724][INFO]: [0dc55393367bec87e5cea405af783f37] COMMAND Navigate {
+   "url": "https://hub.crtweb.ru/tracker"
+}
+[1622719090.724][INFO]: Waiting for pending navigations...
+[1622719090.725][INFO]: Done waiting for pending navigations. Status: ok
+[1622719091.028][INFO]: Waiting for pending navigations...
+[1622719170.511][SEVERE]: Timed out receiving message from renderer: 29.696
+[1622719170.511][INFO]: Timed out. Stopping navigation...
+[1622719170.515][INFO]: Done waiting for pending navigations. Status: disconnected: not connected to DevTools
+[1622719170.523][INFO]: [0dc55393367bec87e5cea405af783f37] RESPONSE Navigate
+[1622719172.627][INFO]: [0dc55393367bec87e5cea405af783f37] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#root > div > div > button > span.MuiButton-label"
+}
+[1622719172.627][INFO]: [0dc55393367bec87e5cea405af783f37] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=91.0.4472.77)
+[1622719172.844][INFO]: [0dc55393367bec87e5cea405af783f37] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#root > div > div > button > span.MuiButton-label"
+}
+[1622719172.844][INFO]: [0dc55393367bec87e5cea405af783f37] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=91.0.4472.77)
+[1622719173.065][INFO]: [0dc55393367bec87e5cea405af783f37] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#root > div > div > button > span.MuiButton-label"
+}
+[1622719173.065][INFO]: [0dc55393367bec87e5cea405af783f37] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=91.0.4472.77)
+[1622719173.302][INFO]: [0dc55393367bec87e5cea405af783f37] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#root > div > div > button > span.MuiButton-label"
+}
+[1622719173.303][INFO]: [0dc55393367bec87e5cea405af783f37] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=91.0.4472.77)
+[1622719173.517][INFO]: [0dc55393367bec87e5cea405af783f37] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#root > div > div > button > span.MuiButton-label"
+}
+[1622719173.517][INFO]: [0dc55393367bec87e5cea405af783f37] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=91.0.4472.77)
+[1622719173.736][INFO]: [0dc55393367bec87e5cea405af783f37] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#root > div > div > button > span.MuiButton-label"
+}
+[1622719173.736][INFO]: [0dc55393367bec87e5cea405af783f37] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=91.0.4472.77)
+[1622719173.950][INFO]: [0dc55393367bec87e5cea405af783f37] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#root > div > div > button > span.MuiButton-label"
+}
+[1622719173.950][INFO]: [0dc55393367bec87e5cea405af783f37] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=91.0.4472.77)
+[1622719174.164][INFO]: [0dc55393367bec87e5cea405af783f37] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#root > div > div > button > span.MuiButton-label"
+}
+[1622719174.165][INFO]: [0dc55393367bec87e5cea405af783f37] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=91.0.4472.77)
+[1622719174.378][INFO]: [0dc55393367bec87e5cea405af783f37] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#root > div > div > button > span.MuiButton-label"
+}
+[1622719174.378][INFO]: [0dc55393367bec87e5cea405af783f37] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=91.0.4472.77)
+[1622719174.596][INFO]: [0dc55393367bec87e5cea405af783f37] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#root > div > div > button > span.MuiButton-label"
+}
+[1622719174.596][INFO]: [0dc55393367bec87e5cea405af783f37] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=91.0.4472.77)

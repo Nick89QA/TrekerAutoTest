@@ -26,9 +26,9 @@ public class TreckerTestSteps {
     public void openPage() {
      autorizationPage.clickAuth();
      autorizationPage.switchWindow(1);
-     autorizationPage.setMailInput("nip@crtweb.ru");
+     autorizationPage.setMailInput("");
      autorizationPage.clickNext();
-     autorizationPage.setPassword("nick2004");
+     autorizationPage.setPassword("");
      autorizationPage.clickNext();
      autorizationPage.switchWindow(0);
     }
